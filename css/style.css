@@ -1,0 +1,426 @@
+	* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+	background-color: white;
+	height: 2px;
+}
+
+	
+/*	*{
+		border: 1px solid red;
+	}*/
+html,body{
+		margin:0;
+		padding: 0;
+		font-family: Georgia, serif;
+	}
+ul{
+		list-style: none;
+		padding: 0px;
+	}
+.head {
+	 	background-color: 	#F0F0F0	;
+	 	height: 6%;
+	 }
+.head a{
+	 	color: gray;
+	 	margin-right: 15px;
+	 	border-left: 1px solid gray;
+	 	padding: 10px;
+	 	font-size: 16px;
+	 }
+
+.navigation ul{
+  	margin-top: 7px;
+ 	float: right;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+.cart-space{
+	margin-right: 5px;
+}
+.menu ul a{
+	margin: 50px;
+	font-size: 18px;
+
+}
+.menu ul{
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	flex-wrap:wrap;	
+	margin: 40px;
+}
+.menu li{
+	margin: auto;
+}
+.menu a{
+	outline-style: none;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: white;
+	background-color: steelblue;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 10px;
+	box-shadow: 0px 0px 5px yellow;
+
+}
+
+.comp-name{
+	text-align: center;
+	border: 5px solid black;
+	font-weight: bolder;
+	padding: 3%;
+
+}
+.heading-align{
+
+	margin: auto;
+	width: 30%;
+	margin-top: 2%;
+}
+
+
+/* ------------------------           SLIDES             ------------------------------*/
+
+
+.cover-page{
+	height: 600px;
+	width: 100%;
+	box-shadow: 0 0 2px gray;
+}
+
+
+
+
+
+
+/* ------------------------           FOOTER             ------------------------------*/
+
+
+
+
+
+
+footer{
+	text-align: center;
+}
+.send-button{
+	height: 28px;
+	width: 100px;
+	border: 1px solid #F8F8F8;
+	border-radius: 5px;
+	background-color: #1ECD97;
+	font-weight: bold;
+	font-size: 20px;
+}
+.icon{
+	color: white;
+	font-size: 18px;
+}
+.f-icons{
+	width: 20px;
+	height: 30px;
+}
+.footer-payment{
+	text-align: center;
+	padding: 3%;	
+}
+.payment-icons{
+	font-size: 3em;
+}
+.social-icons{
+	font-size: 1.5em;
+	display: inline-flex;
+}
+.social-icons li{
+	margin-left: 20px;
+}
+
+
+
+.testimonial{
+	text-align: center;
+
+
+}
+blockquote {
+
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    position: absolute;
+    float:right;
+    font-size:4em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+
+.white-space h2{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+
+
+footer{
+	text-align: center;
+}
+
+
+
+input{
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px #1ECD97;
+	margin-bottom: 6px;
+	padding: 3px;
+}
+
+.send-button{
+	height: 28px;
+	width: 100px;
+	border: 1px solid #F8F8F8;
+	border-radius: 5px;
+	background-color: #1ECD97;
+	font-weight: bold;
+	font-size: 1px;
+}
+
+/* ============================================================================*/
+/*                          BUTTONS ANIMATION                  */
+/* ============================================================================*/
+
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.icon{
+	color: white;
+	font-size: 18px;
+}
+.f-icons{
+	width: 20px;
+	height: 30px;
+}
+
+/* ============================================================================*/
+/*                          IMAGE ANIMATION                  */
+/* ============================================================================*/
+.item {
+  position: relative;
+  /*border: 1px solid #333;*/
+/*  margin: 2%;
+*/  overflow: hidden;
+  width: 740px;
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+/* =========================              REGISTER   =====================================*/
+
+.footer-input{
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px #1ECD97;
+	margin-bottom: 6px;
+	padding: 3px;
+}
+*:focus {
+  outline: none;
+}
+
+.main{
+	margin: 0;
+	padding: 0;
+	background-color: #F1F1F1;
+	width: 100%;
+	height: 120%;
+	padding-top: 7%;
+}
+.main h1,p{
+	text-align: center;
+}
+
+.skin{
+	width: 50% ;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+
+	display: flex;
+}
+.inner-left{
+	width: 50%;
+	height: 450px;
+	background-color: white;
+	text-align: center;
+
+}
+.inner-right{
+	width: 50%;
+	height: 450px;
+	background-color: rgb(199, 235, 245); 
+}
+
+.input{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+input{
+	margin: auto;
+
+}
+.or {
+  position: absolute;
+  top: 655px;
+  left: 655px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+.facebook,.twitter,.google{
+	margin: 20% 20% 5% 20% ;
+	width: 200px;
+	height: 40px;
+	color: white;
+	font-size: 14px;
+	border-radius: 10px;
+
+}
+.facebook{
+	border: 1px solid #3b5999;
+	background-color: #3b5999;
+
+}
+.twitter{
+	border: 1px solid #00aced;
+	background-color: #00aced;
+}
+.google{
+	border: 1px solid #d34836;
+	background-color: #d34836;
+}
+
+
+
+
+
+
+/* ============================================================================*/
+/*                          MEDIA QUERY                  */
+/* ============================================================================*/
+
+
+@media only screen and (max-width: 350px) {
+	.cover-page{
+	height: 50%;
+	width: 100%;
+	}
+
+}
+@media only screen and (max-width: 750px) {
+	.cover-page{
+	height: 50%;
+	width: 100%;
+	}
+
+}
